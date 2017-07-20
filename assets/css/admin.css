@@ -1,0 +1,161 @@
+.xtra_full_wr{display:block;}
+.xtra_box{padding:1px 15px; margin-bottom:15px;}
+.xtra_left{float:left; width:68%;}
+.xtra_right{float:left; width:30%; margin-left:2%;}
+div.xtra{
+	margin-bottom:15px;
+	border: none;
+	box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-o-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	background-color: #f2f5f9;
+	text-align: left;
+	padding: 0px; 
+	overflow: auto;
+}
+div.xtra_ajax_response{
+	margin-top:15px;
+	margin-bottom:15px;
+	border: none;
+	box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-o-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	background-color: #ffffff;
+	text-align: left;
+	padding: 15px; 
+	height: 250px; 
+	overflow: auto;
+	display: none;
+}
+table.xtra{
+	margin-bottom:15px;
+	border: none;
+	box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+	-o-box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+}
+.xtra-thead {background-color: #dcecf1 !important;}
+.xtra-thead td{font-weight:bold; vertical-align: top;}
+table.xtra th{font-weight:bold; vertical-align: top;}
+table.xtra th span{font-weight:normal; font-style:italic;}
+table.xtra label{white-space: nowrap;}
+/*@media (max-width: 767px) {*/
+@media (max-width: 950px) {
+	.xtra_left, .xtra_right{width:100%;margin-left:0;}
+	table.xtra label{white-space: normal;}
+	table.xtra td{text-align: left;}
+}
+.xtra-tab-wrapper {padding-top: 20px;}
+
+
+
+/* --- Recolor Tabs --- */
+.xtra_left .nav-tab {background:#dadada !important;}
+.xtra_left .nav-tab:hover {background:#FFF !important;}
+.xtra_left .nav-tab-active {background:#f1f1f1 !important;}
+.xtra_left .nav-tab-active:hover {background:#f1f1f1 !important;}
+
+
+
+
+.xtra_tabbes {display:none;}
+.xtra_tabbes.active {display:block;}
+.no-js h2.nav-tab-wrapper {display:none;}
+.no-js .xtra_tabbes {display:block;}
+
+
+
+.widefat th.xtra_box, .widefat td.xtra_box { color:#093; }
+.widefat th.xtra_error, .widefat td.xtra_error { color:#dc3232 !important; }
+.widefat td, .widefat th { padding: 6px 10px; }
+.slimrow td, .slimrow th { padding: 2px 10px; }
+.striped>tbody>:nth-child(odd) { background-color: #f2f5f9; }
+
+
+
+.exclude_checkbox:checked  { 
+	border:1px solid #AA0000 !important; 
+	background:#ffd7d7 !important; 
+}
+.exclude_checkbox:checked  + label { 
+	color:#AA0000 !important; 
+}
+
+
+.icbefore:before {
+	display: inline-block;
+	font-size: 200%;
+	font-family: dashicons;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	padding-right: 0.2em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.fix-35 {width:35px;display:inline-block;}
+.h-150 {max-height:150px; overflow-y:scroll;}
+.h-250 {max-height:250px; overflow-y:scroll;}
+.h-350 {max-height:350px; overflow-y:scroll;}
+.h-450 {max-height:450px; overflow-y:scroll;}
+.h-550 {max-height:550px; overflow-y:scroll;}
+.h-650 {max-height:650px; overflow-y:scroll;}
+.no-wrap {white-space:nowrap;}
+.p-left-100 {padding-left:100px;}
+.m-left-30 {margin-left:30px;}
+.m-left-50 {margin-left:50px;}
+.small {font-size: small;}
+.bold {font-weight:bold;}
+.b-top-4-ccc {border-top: 4px solid #ccc;}
+.disp-none {display:none;}
+.butt-wrap {text-align:center;margin:0px auto 50px auto;}
+.mybigbutt {font-size:130% !important;font-weight:bold;}
+.padd-2-10 {padding:2px 10px;}
+.texta-350 {width:100%;height:350px;}
+.max-h-150 {
+	max-height:150px; 
+	overflow-y:scroll;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.texta-150 {
+	width:100%;
+	height:150px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.indented {
+	text-indent: -3.3em;
+	padding-left: 3.3em;
+}
+.float-right {float: right;}
+.float-left {float: left;}
+.clear {clear: both;}
+.xtra_box .button {vertical-align: baseline !important;}
+
+/*
+@-webkit-keyframes easex {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}  
+@keyframes easex {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.xtra_tabbes {
+	-webkit-animation: easex 0.8s;
+	-moz-animation: easex 0.8s;
+	-o-animation: easex 0.8s;
+	animation: easex 0.8s;
+}
+*/
